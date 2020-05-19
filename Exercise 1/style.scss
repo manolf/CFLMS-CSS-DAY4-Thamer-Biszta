@@ -28,15 +28,68 @@ h1 {
 }
 h3 {
 	font-size: 2vw;
-
 }
+
+p{
+	font-size: 1.5vw;
+}
+
+
 #header {
+	padding-top: 1vw;
 	width: 90vw;
 	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-start;
-	img{
-		
-	}
-	
+	flex-direction: column;
+	justify-content: center;
+
 }
+
+#headings > h1,h3 {
+		margin-left: 1vw;
+	}
+
+main{
+	background-color: orange;
+
+	text-align: center;
+	margin: 1vw;
+
+	p{font-size: 1.5vw;
+
+}
+}
+
+#row{
+	width: 100%;
+	display: flex;
+	flex-flow: wrap;
+	flex-flow: row;
+	justify-content: center;
+
+	.foto{
+
+		width: 25%;
+		img{
+			width:100%;
+		}
+	}
+}
+
+/*.row {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  flex-flow: wrap;
+  justify-content: center;
+  
+
+  }
+.column {
+  width: 30%;
+  padding: 5px;
+}
+
+.column img {
+  width: 100%;
+} */
+	
