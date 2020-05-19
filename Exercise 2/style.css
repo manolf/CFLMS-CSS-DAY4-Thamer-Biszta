@@ -1,0 +1,58 @@
+section.fotos{
+
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: pink;
+	border: 5px solid green;
+
+
+/*	  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  border: 5px solid green; */
+
+}
+
+div.foto{
+	background-color: lime;
+	width:30%;
+	display: inline-block;
+
+}
+
+/*  width: 30%;
+  border: 5px solid black;
+  display: inline-block;*/
+
+div.foto img{
+
+	width: 100%;
+
+
+
+}
+
+/*
+div.column img {
+  width: 100%;
+}
+ /*
+.foto2{
+	background-color: pink;
+	overflow: hidden;
+	width: 30%;
+	height: 300px;
+	  display: inline-block;
+}
+
+.foto3{
+	background-color: lightblue;
+	overflow: hidden;
+	width: 30%;
+	height: 300px;
+	  display: inline-block;
+}
+*/
+
