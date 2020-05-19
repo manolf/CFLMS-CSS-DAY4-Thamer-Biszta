@@ -1,58 +1,37 @@
-section.fotos{
+h1 {
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  flex-flow: wrap;
+  justify-content: center;
+  
 
-	width: 80%;
-	max-width: 1000px;
-	margin: 0 auto;
-	background-color: pink;
-	border: 5px solid green;
-
-
-/*	  width: 80%;
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: lightgreen;
-  border: 5px solid green; */
-
+  }
+.column {
+  width: 30%;
+  padding: 5px;
 }
 
-div.foto{
-	background-color: lime;
-	width:30%;
-	display: inline-block;
-
-}
-
-/*  width: 30%;
-  border: 5px solid black;
-  display: inline-block;*/
-
-div.foto img{
-
-	width: 100%;
-
-
-
-}
-
-/*
-div.column img {
+.column img {
   width: 100%;
 }
- /*
-.foto2{
-	background-color: pink;
-	overflow: hidden;
-	width: 30%;
-	height: 300px;
-	  display: inline-block;
-}
 
-.foto3{
-	background-color: lightblue;
-	overflow: hidden;
-	width: 30%;
-	height: 300px;
-	  display: inline-block;
+ /*Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
-*/
-
+ /*Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
