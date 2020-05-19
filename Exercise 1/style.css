@@ -1,12 +1,30 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1vw;
+  background-color: #6A5E62; }
+
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none; }
 nav li {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 2vw; }
 nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none; }
+
+h1 {
+  font-size: 4vw; }
+
+h3 {
+  font-size: 2vw; }
+
+#header {
+  width: 90vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start; }
 
 /*# sourceMappingURL=style.css.map */
